@@ -1,0 +1,15 @@
+rocketmq:
+  name-server: namesrv:9876
+  producer:
+    group: msgcloud-core-message
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos-test:8849/
+
+path:
+  chromedriver: /usr/bin/chromedriver
+  tmp: /tmp/
+  ffmpeg: /usr/local/ffmpeg/bin/ffmpeg

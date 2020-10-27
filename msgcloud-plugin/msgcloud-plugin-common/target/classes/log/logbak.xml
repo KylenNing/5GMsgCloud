@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+    <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
+    <conversionRule conversionWord="wex"
+                    converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter"/>
+    <conversionRule conversionWord="wEx"
+                    converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter"/>
+    <conversionRule conversionWord="business"
+                    converterClass="cc.htdf.msgcloud.common.config.log.BusinessConvert"/>
+
+    <springProperty scope="context" name="serviceName" source="spring.application.name"/>
+    <property name="BUSINESS_NAME" value="%business"/>
+
+
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%yellow(%date{yyyy-MM-dd HH:mm:ss}) | %highlight(%business) |%highlight(%-5level) |%blue(%thread) |%blue(%file:%line) |%green(%logger) |%cyan(%msg%n)
+            </pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="messageLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+            <FileNamePattern>log/message.%d{yyyy-MM-dd}-%i.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <maxFileSize>200MB</maxFileSize>
+            <maxHistory>600000</maxHistory>
+            <totalSizeCap>100GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>%msg%n</pattern>
+        </encoder>
+        <filter class="cc.htdf.msgcloud.common.config.log.LogMessageFilterConfig"/>
+    </appender>
+
+<!--    <appender name="messageLogstash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+<!--        <destination>logstash:5044</destination>-->
+<!--        &lt;!&ndash; 日志输出编码 &ndash;&gt;-->
+<!--        <encoder charset="UTF-8"-->
+<!--                 class="net.logstash.logback.encoder.LogstashEncoder">-->
+<!--            <providers>-->
+<!--                <timestamp>-->
+<!--                    <timeZone>CST</timeZone>-->
+<!--                </timestamp>-->
+<!--                <pattern>-->
+<!--                    <pattern>-->
+<!--                        %message-->
+<!--                    </pattern>-->
+<!--                </pattern>-->
+<!--            </providers>-->
+<!--        </encoder>-->
+<!--        <filter class="cc.htdf.msgcloud.common.config.log.LogMessageFilterConfig"/>-->
+<!--    </appender>-->
+
+    <root level="INFO">
+        <appender-ref ref="console"/>
+        <appender-ref ref="messageLog" />
+<!--        <appender-ref ref="messageLogstash" />-->
+    </root>
+
+
+</configuration>

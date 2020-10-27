@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>msgcloud-parent</artifactId>
+        <groupId>cc.htdf.msgcloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>cc.htdf.msgcloud</groupId>
+    <artifactId>msgcloud-core-executors</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>msgcloud-core-executor-base</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+
+        <dependency>
+            <artifactId>msgcloud-plugin-mongo</artifactId>
+            <groupId>cc.htdf.msgcloud</groupId>
+        </dependency>
+
+        <dependency>
+            <artifactId>msgcloud-plugin-redis</artifactId>
+            <groupId>cc.htdf.msgcloud</groupId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <artifactId>msgcloud-plugin-db</artifactId>
+            <groupId>cc.htdf.msgcloud</groupId>
+        </dependency>
+    </dependencies>
+
+</project>

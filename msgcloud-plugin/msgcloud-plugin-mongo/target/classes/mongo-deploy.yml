@@ -1,0 +1,4 @@
+skydefender:
+  mongodb:
+    - name: htdf_mongo_sets
+      uri: mongodb://root:htdf_2019@dds-2ze39103d1f38c441.mongodb.rds.aliyuncs.com:3717,dds-2ze39103d1f38c442.mongodb.rds.aliyuncs.com:3717/source?replicaSet=mgset-12961555

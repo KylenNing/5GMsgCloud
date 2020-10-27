@@ -1,0 +1,9 @@
+cc/htdf/msgcloud/redis/annotation/EnableRedis.class
+cc/htdf/msgcloud/redis/plugin/RedisTemplateSerializer.class
+cc/htdf/msgcloud/redis/domain/RedisSourceName.class
+cc/htdf/msgcloud/redis/domain/RedisSource.class
+cc/htdf/msgcloud/redis/exception/RedisConfigException.class
+cc/htdf/msgcloud/redis/plugin/config/RedisDefaultConfigLoad.class
+cc/htdf/msgcloud/redis/utils/BeanRegistryUtil.class
+cc/htdf/msgcloud/redis/serializer/FastJson2JsonRedisSerializer.class
+cc/htdf/msgcloud/redis/plugin/RedisLoadPlugin.class

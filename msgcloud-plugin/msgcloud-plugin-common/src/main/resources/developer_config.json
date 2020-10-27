@@ -1,0 +1,15 @@
+{
+	"aesKey":"7PDMJo9PgFDOiZVr5JlBYmOrSIPIMfjgqVTgUEPLMSp",
+	"createTemplatePath":"/developer/template/save",
+	"domain":"http://5gmc.fetiononline.com/api",
+	"enableAes":0,
+	"groupSendPath":"/developer/message/groupSend",
+	"password":"jGOgQlVEj8WgTqi",
+	"point2pointSendPath":"/developer/message/point2pointSend",
+	"publicRsaKey":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuBYWt8z2yUXE4jC8nwNgNUgRZ+KazjkjZZ6OY\nYvnqJS2lXJjr2OJVhdsCjELNRdSXhVZ41amNWs5fUEhMfZMHJzaiC0X5ve69lXQhFYmJL5FezSOu\nhdTFW1tkYbzMkRZathQYFN2ySD+dAW86WWC6LuYgW6AQl5YKhWbSsO33iQIDAQAB",
+	"token":"3FUBRaaU47",
+	"tokenPath":"/sys/developer/auth/getAccessToken",
+	"uploadFileAndThumbImagePath":"/developer/material/uploadFileAndThumbImage",
+	"uploadFilePath":"/developer/material/uploadFile",
+	"username":"485946697931816960"
+}

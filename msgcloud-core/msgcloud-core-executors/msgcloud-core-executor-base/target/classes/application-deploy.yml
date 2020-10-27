@@ -1,0 +1,21 @@
+xxl:
+  job:
+    admin:
+      address: http://10.0.1.202:8080/xxl-job-admin
+    executor:
+      appname: msgcloud-core-executor-base
+      ip: msgcloud-core-executor-base
+      port: 15000
+      logpath: /data/applogs/msg-core-executor/msg-core-executor-base/
+      logretentiondays: 30
+      accessToken:
+
+web-url:
+  nation-station-data: http://39.106.9.232/obs_station/
+  gwc-forecast-data: https://servicedelivery.globalweathercorp.com/webservices/resources/csv/day/
+  tj-forecast-data: http://60.29.105.39:8061/PewckDS/json_origswaquery?ud=fklk3ifjpo2ks
+  tj-observe-data: http://60.29.105.39:8061/PewckDS/json_cimactual_pdate?ud=fklk3ifjpo2ks
+  tj-index-data: http://60.29.105.39:8061/PewckDS/json_zs_type?ud=fklk3ifjpo2ks
+
+dir:
+  gwc-forecast-filepath: /data/gwc/forecast/

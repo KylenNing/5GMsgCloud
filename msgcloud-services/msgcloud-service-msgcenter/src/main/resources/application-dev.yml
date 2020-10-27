@@ -1,0 +1,14 @@
+rocketmq:
+  name-server: 192.168.1.150:9876
+  producer:
+    group: msgcloud-core-message
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.150:8848/
+path:
+  chromedriver: /usr/local/bin/chromedriver
+  tmp: D:/data/5g/
+  ffmpeg: D:/soft/utils/ffmpeg/bin/ffmpeg.exe

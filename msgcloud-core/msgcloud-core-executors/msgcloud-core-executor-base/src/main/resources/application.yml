@@ -1,0 +1,14 @@
+server:
+  port: 0
+spring:
+  profiles:
+    active: dev
+  application:
+    name: msgcloud-core-executor-base
+    servlet:
+      multipart:
+        maxFileSize: "5MB"
+        maxRequestSize: "5MB"
+
+logging:
+  config: classpath:log/logbak.xml

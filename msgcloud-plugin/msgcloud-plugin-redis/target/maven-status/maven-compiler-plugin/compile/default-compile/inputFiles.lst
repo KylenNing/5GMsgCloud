@@ -1,0 +1,9 @@
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/serializer/FastJson2JsonRedisSerializer.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/utils/BeanRegistryUtil.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/domain/RedisSource.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/domain/RedisSourceName.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/plugin/RedisTemplateSerializer.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/plugin/config/RedisDefaultConfigLoad.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/plugin/RedisLoadPlugin.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/annotation/EnableRedis.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-redis/src/main/java/cc/htdf/msgcloud/redis/exception/RedisConfigException.java

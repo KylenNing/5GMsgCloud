@@ -1,0 +1,16 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /api/msgcenter
+spring:
+  profiles:
+    active: dev
+  application:
+    name: msgcloud-service-msgcenter
+  servlet:
+    multipart:
+      maxFileSize: "30MB"
+      maxRequestSize: "30MB"
+
+logging:
+  config: classpath:log/logbak.xml

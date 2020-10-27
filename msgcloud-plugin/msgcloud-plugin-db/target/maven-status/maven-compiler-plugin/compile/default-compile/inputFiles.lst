@@ -1,0 +1,16 @@
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/annotation/EnableMybatis.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/domain/DB.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/config/DataSources.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/exception/MybatisPlusConfigException.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/config/TargetDatasourceHandler.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/MybatisPlusLoader.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/annotation/TargetDataSource.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/handler/DBContextHolder.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/domain/DBExtendConfig.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/domain/DBName.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/config/DynamicDataSource.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/annotation/EnableDB.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/DBPluginLoader.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/plugin/config/DBConfigDefaultLoad.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/utils/BeanRegistryUtil.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-db/src/main/java/cc/htdf/msgcloud/db/exception/DBConfigException.java

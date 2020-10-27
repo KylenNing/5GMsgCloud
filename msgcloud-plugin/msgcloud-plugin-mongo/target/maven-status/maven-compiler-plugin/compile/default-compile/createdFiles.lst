@@ -1,0 +1,8 @@
+cc/htdf/msgcloud/mongo/domain/MongoSource.class
+cc/htdf/msgcloud/mongo/config/MongoSourceName.class
+cc/htdf/msgcloud/mongo/utils/BeanRegistryUtil.class
+cc/htdf/msgcloud/mongo/plugin/config/MongoDefaultConfigLoad.class
+cc/htdf/msgcloud/mongo/exception/MongoConfigException.class
+cc/htdf/msgcloud/mongo/config/MongoConfig.class
+cc/htdf/msgcloud/mongo/plugin/MongoLoadPlugin.class
+cc/htdf/msgcloud/mongo/annotation/EnableMongodb.class

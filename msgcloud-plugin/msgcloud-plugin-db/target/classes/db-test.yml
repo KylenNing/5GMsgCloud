@@ -1,0 +1,17 @@
+skydefender:
+  datasource:
+    - name: msgcloud
+      url: jdbc:mysql://39.106.9.232:9306/msgcloud_test?useSSL=false&serverTimezone=GMT%2b8
+      username: htdf
+      password: htdf_S2B
+      driverClassName: com.mysql.cj.jdbc.Driver
+    - name: htdf_oauth
+      url: jdbc:mysql://39.106.9.232:9306/htdf_oauth?useSSL=false
+      username: htdf
+      password: htdf_S2B
+      driverClassName: com.mysql.cj.jdbc.Driver
+    - name: msgcloud_test
+      url: jdbc:mysql://39.106.9.232:9306/msgcloud_test?useSSL=false&serverTimezone=GMT%2b8
+      username: htdf
+      password: htdf_S2B
+      driverClassName: com.mysql.cj.jdbc.Driver

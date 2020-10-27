@@ -1,0 +1,16 @@
+server:
+  port: 8011
+  servlet:
+    context-path: /api/datacenter
+spring:
+  profiles:
+    active: dev
+  application:
+    name: msgcloud-service-datacenter
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.0.1.201:8848/
+
+logging:
+  config: classpath:log/logbak.xml

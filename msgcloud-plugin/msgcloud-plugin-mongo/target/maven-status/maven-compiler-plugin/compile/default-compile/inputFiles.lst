@@ -1,0 +1,8 @@
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/config/MongoConfig.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/annotation/EnableMongodb.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/domain/MongoSource.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/config/MongoSourceName.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/plugin/config/MongoDefaultConfigLoad.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/plugin/MongoLoadPlugin.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/utils/BeanRegistryUtil.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-plugin/msgcloud-plugin-mongo/src/main/java/cc/htdf/msgcloud/mongo/exception/MongoConfigException.java

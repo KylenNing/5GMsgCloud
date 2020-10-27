@@ -1,0 +1,6 @@
+cc/htdf/msgcloud/datacenter/service/impl/ForecastDataServiceImpl.class
+cc/htdf/msgcloud/datacenter/MsgCloudDataCenterApp.class
+cc/htdf/msgcloud/datacenter/domain/po/D5gHourWeatherPO.class
+cc/htdf/msgcloud/datacenter/service/ForecastDataService.class
+cc/htdf/msgcloud/datacenter/controller/ForecastDataController.class
+cc/htdf/msgcloud/datacenter/mapper/D5gHourWeatherMapper.class

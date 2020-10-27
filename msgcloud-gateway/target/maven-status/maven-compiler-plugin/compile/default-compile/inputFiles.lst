@@ -1,0 +1,10 @@
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/filter/AuthFilter.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/service/CIgnoreUriServiceImpl.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/service/CIgnoreUriService.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/service/CMsgUserService.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/mapper/CIgnoreUriMapper.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/MsgCloudGateway.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/service/CMsgUserServiceImpl.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/mapper/CMsgUserMapper.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/domain/po/CIgnoreUri.java
+/Users/kylen/work/htdf-code/MsgCloud/msgcloud-gateway/src/main/java/cc/htdf/msgcloud/gateway/domain/po/CMsgUserPO.java

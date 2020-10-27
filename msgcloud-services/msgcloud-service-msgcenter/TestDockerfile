@@ -1,0 +1,8 @@
+FROM msgcloud-ffmpeg/msgcloud:v1.0
+
+WORKDIR /app
+COPY target/msgcloud-service-msgcenter.jar /app/msgcloud-service-msgcenter.jar
+
+
+CMD cd /app \
+    && java -Djava.util.Arrays.useLegacyMergeSort=true -agentlib:jdwp=transport=dt_socket,address=8032,server=y,suspend=n -jar /app/msgcloud-service-msgcenter.jar --spring.profiles.active=test -Dfile.encoding=UTF-8

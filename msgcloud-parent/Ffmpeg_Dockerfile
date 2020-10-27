@@ -1,0 +1,45 @@
+FROM centos:centos7
+
+WORKDIR /app
+ADD http://172.17.247.250/repo/jdk1.8.tar /
+ADD http://172.17.247.250/repo/google-chrome-stable_current_x86_64.rpm /app
+ADD http://172.17.247.250/repo/chromedriver_linux64.zip /app
+ADD http://172.17.247.250/repo/yasm-1.3.0.tar.gz /app
+ADD http://172.17.247.250/repo/ffmpeg-4.1.tar.xz /app
+ADD http://172.17.247.250/repo/msyh.ttf /usr/share/fonts/msyh.ttf
+
+
+RUN cd / \
+    && mkdir /jdk1.8 \
+    && tar -xvf  jdk1.8.tar -C ./jdk1.8 \
+    && mv /jdk1.8 /usr/local/jdk1.8 \
+    && rm -rf jdk1.8.tar \
+    && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+    && echo "Asia/Shanghai" > /etc/timezone \
+    && mkdir -p /data/gwc/forecast \
+    && cd /app \
+    && yum localinstall -y google-chrome-stable_current_x86_64.rpm \
+    && yum install -y automake autoconf make gcc gcc-c++ libtool zlib zlib-devel curl curl-devel alsa-lib alsa-lib-devel gettext gettext-devel expat expat-devel nasm pkgconfig \
+    && yum install -y libgconf-2-4 unzip kde-l10n-Chinese  net-tools reinstall glibc-common yasm yasm-devel \
+    && cd /app \
+    && tar -xzvf yasm-1.3.0.tar.gz \
+    && cd yasm-1.3.0/ \
+    && ./configure && make && make install \
+    && cd /app \
+    && tar -Jxvf ffmpeg-4.1.tar.xz \
+    && cd /app/ffmpeg-4.1 \
+    && ./configure --prefix=/usr/local/ffmpeg \
+    && make && make install \
+    && cd /app \
+    && unzip -d /usr/bin chromedriver_linux64.zip  \
+    && yum clean all \
+    && localedef -c -f UTF-8 -i zh_CN zh_CN.utf8 \
+    && rm -rf /app/yasm* /app/ffmpeg* chromedriver_linux64.zip *.rpm
+
+ENV LC_ALL "zh_CN.UTF-8"
+ENV JAVA_HOME /usr/local/jdk1.8/
+ENV JRE_HOME $JAVA_HOME/jre
+ENV CLASSPATH $JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+ENV FFMPEG_HOME /usr/local/ffmpeg
+ENV PATH $JAVA_HOME/bin:$FFMPEG_HOME/bin:$PATH
+

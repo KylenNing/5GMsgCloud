@@ -1,0 +1,10 @@
+rocketmq:
+  name-server: 192.168.1.150:9876
+  producer:
+    group: msgcloud-core-message
+
+msgcloud:
+  mobile:
+    send:
+      url: https://maap01.hdn.rcs.chinamobile.com/maapdiscovery/messaging/v1/outbound/sip:1065051122206@botplatform.rcs.chinamobile.com/requests
+      senderAddress: sip:1065051122206@botplatform.rcs.chinamobile.com
